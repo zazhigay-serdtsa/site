@@ -9,21 +9,35 @@ const MainContent = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.titleWrap}>
-      <div className={style.title}>
-      <p>Все мы ра</p>
-      <div className={style.literaWrap}>
-        <p className={style.litera}>з</p>
-        <p className={style.litera}>в</p>
-      </div>
-      <p>ные</p>
-      <div className={style.colorBlock}/>
-      </div>
-      <p className={style.text}>Онлайн-платформа для инклюзивного просвещения населения</p>
-      <button className={style.button}>
-        <a href={`#moreinfo`}>
-        Узнать больше
-        </a>
-      </button>
+        <div className={style.title}>
+          <p>Все мы ра</p>
+          <div className={style.literaWrap}>
+            <p className={style.litera}>з</p>
+            <p className={style.litera}>в</p>
+          </div>
+          <p>ные</p>
+          <div className={style.colorBlock} />
+        </div>
+        <p className={style.text}>Онлайн-платформа для инклюзивного просвещения населения</p>
+        {/* <div className={style.buttons}>
+          <button className={style.button}>
+            <a href={`#moreinfo`}>
+              Узнать больше
+            </a>
+          </button>
+          <button className={style.button}>
+            <a href={`#`}>
+              Стать волонтёром
+            </a>
+          </button>
+        </div> */}
+
+        <button className={style.button}>
+          <a target="_blank" href={`https://forms.gle/FD44CgR6v1f6ouT76`} rel="noreferrer">
+            Стать волонтёром
+          </a>
+        </button>
+
       </div>
 
       <div className={style.imageWrap}>
@@ -35,9 +49,9 @@ const MainContent = () => {
           <img className={style.mainImage2} src={MainContentImage2} alt="logo" />
           <img className={style.frame2} src={Frame} alt="Frame" />
         </div>
-        <div className={style.smallColorBlock1}/>
-        <div className={style.smallColorBlock2}/>
-        <div className={style.smallColorBlock3}/>
+        <div className={style.smallColorBlock1} />
+        <div className={style.smallColorBlock2} />
+        <div className={style.smallColorBlock3} />
       </div>
     </div>
   );
