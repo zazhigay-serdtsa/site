@@ -13,7 +13,7 @@ const Manual = () => {
                         <iframe width="620" height="350" src="https://www.youtube.com/embed/mSCH3NVWyWo" title="Конкурс рисунков логотипа платформы инклюзивного просвещения" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                         <div className={style.buttonStyle}>
-                            <a download="/static/media/color_logo.pdf" href="#">
+                            <a download="../static/media/color_logo.pdf" href="#">
                                 <button>
                                     Скачать материал для конкурса
                                 </button>
